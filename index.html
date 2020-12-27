@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <title>James's HTML</title>
+    </head>
+    
+    <body>
+        <h1 id="welcome_header">Welcome!</h1>
+        
+        <h2 id="website_header">This is James Kwak's Website</h2>
+        <p>James is currently practicing with HTML and CSS and trying to attach and customize different forms, texts, links, etc.</p>
+        <img id="linkedin_pic" src="linkedin pfp.jpg"
+             alt="linkedin pfp" />
+        
+        <h2 id="family_header"> My Family</h2>
+        <img id="family_pic" src="IMG_0003.jpg"
+             alt="IMG_0003" />
+        
+        <h2 id="video_header"> Video </h2>
+        <video width="520" height="360" controls>
+            <source src="IMG_0066.MOV" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </body>
+    
+    <div>
+        <h2 id="name_header">Enter name here</h2>
+        <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="First name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Last name..">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="usa">USA</option>  
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+            </select>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    
+    <body>
+        <h2 id="notepad_header"> Notepad </h2>
+        <form>
+            <textarea> Enter text...</textarea>
+        </form>
+    </body>
+    
+    <body>
+        <h2>My First JavaScript</h2>
+        <button type="button"
+                onclick="document.getElementById('demo').innerHTML = Date()">
+            Click me to display Date and Time.
+        </button>
+        <p id="demo"></p>
+    </body>
+    
+    <body>
+        <h1>CSCI 201 JavaScript</h1>
+        <p>Click the button to see some hidden text.</p>
+        <p id="hello" style="display:none">Hello 8) </p>
+        <button type="button" 
+                onclick="document.getElementById('hello').style.display='block'">
+            Click Me!
+        </button>
+    </body>
+    
+    
+    
+</html>
